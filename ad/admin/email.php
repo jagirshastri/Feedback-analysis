@@ -1,5 +1,5 @@
 <?php
-$to = "javalp39@gmail.com";
+$to = "mail-id";
 $subject = "My subject";
 $txt = "Hello world!";
 
