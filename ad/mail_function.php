@@ -11,11 +11,11 @@
 		$mail->SMTPAuth = TRUE;
 		$mail->SMTPSecure = 'tls'; // tls or ssl
 		$mail->Port     = 587;
-		$mail->Username = "javalpatel19@gnu.ac.in";
-		$mail->Password = "GNU31082001@Javal";
+		$mail->Username = "mailid";
+		$mail->Password = "password";
 		$mail->Host     = "smtp.gmail.com";
 		$mail->Mailer   = "smtp";
-		$mail->SetFrom("javalpatel19@gnu.ac.in", "javal");
+		$mail->SetFrom("mailid", "name");
 		$mail->AddAddress($email);
 		$mail->Subject = "OTP to Login";
 		$mail->MsgHTML($message_body);
